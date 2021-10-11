@@ -1,0 +1,41 @@
+@media (max-width: 899px) {
+    .navbar .nav-content{
+        justify-content: space-between;
+    }
+    .navbar .nav-content .navbar-nav{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 121px;
+        right: -100%;
+        background-color: #171F55;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 20px 0px;
+        transition: all .4s linear;
+    }
+    .navbar.navbar-fixed-top.scrolled .nav-content .navbar-nav 
+    {
+        top: 78px;
+    }
+    .navbar .nav-content .navbar-nav .nav-item{
+        padding-bottom: 25px;
+    }
+    .navbar .nav-content .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+    }
+    .active-nav{
+        right: 0px !important;
+    }
+    .navbar .nav-content .hamburger{
+        display: block !important;
+    }
+    .background-size-shape{
+        background-size: cover !important;
+    }
+    .form-data .form-content .credit-card{
+        margin: 0px;
+        border-radius: 40px;
+    }
+}
